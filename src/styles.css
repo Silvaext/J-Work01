@@ -13,9 +13,47 @@ body {
 }
 
 #logo {
-  float: left 
+  float: left;
 }
 #menu a {
   text-decoration: none;
+  color: #670001;
+  margin-left: 50px;
+  line-height: 75px;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+header {
+  height: 75px;
+  margin: 30px 0;
+}
+
+article {
+  width: 220px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.ultimo {
+  margin-right: 0px;
+}
+
+h2 {
+  color: #670001;
+}
+
+a {
   color: #670001;
 }
